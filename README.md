@@ -1,1 +1,1 @@
-# sample_repo - minor update
+# Sample_repo - minor update
