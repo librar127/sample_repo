@@ -40,7 +40,7 @@ jobs:
             echo 'The work is now complete.'
 
 workflows:
-  Example-Workflow:
+  1st-Workflow:
     jobs:
       - Hello-World
       - Fetch-Code:
@@ -57,3 +57,8 @@ workflows:
       - Now-Complete:
           requires:
             - Hold-for-Approval
+
+  2nd-Workflow:
+    jobs:
+      - Hello-World
+      - Fetch-Code
